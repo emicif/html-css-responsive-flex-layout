@@ -14,6 +14,11 @@ body {
     display: flex
 }
 
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 /**** HEADER ****/
@@ -82,6 +87,10 @@ header {
     background-color: blue;
 }
 
+.black {
+    background-color: black;
+}
+
 /* text */
 
 .text-content {
@@ -115,30 +124,22 @@ header {
     }
 
 
-  
+    .text-content-big {
+        height: 150px;
+        width: 90%;
+        margin: 10px;
+        align-self: center;
+        text-align: center;
+    }
+
+    .h400 {
+        height: 400px;
+    }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .text-white {
+      color: white;
+  }
 
 
 
@@ -148,6 +149,12 @@ header {
 
 
 .second {
-    height: 150px;
+  
     background-color: white;
+}
+
+/* contenitore about us */
+
+.h600 {
+    height: 600px;
 }
