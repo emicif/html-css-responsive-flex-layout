@@ -41,6 +41,9 @@ header {
 .container {
     width: 100%;
     flex-direction: column;
+    row-gap: 10px;
+    flex-wrap: wrap;
+
 }
 
 
@@ -50,7 +53,7 @@ header {
     background-color: rgb(84, 84, 247);
     height: 600px;
     width: 90%;
-    margin: 10px;
+    margin-top: 10px;
     align-self: center;
     border-radius: 8%;
 }
@@ -62,7 +65,7 @@ header {
 .small-content {
     height: 250px;
     width: 90%;
-    margin: 10px;
+    margin-bottom: 10px;
     align-self: center;
     border-radius: 8%;
 }
@@ -106,6 +109,7 @@ header {
 
 .big {
     height: 800px;
+    width: 100%;
     
 }
 
@@ -155,6 +159,21 @@ header {
 
 /* contenitore about us */
 
+
+.h400 {
+    height: 400px;
+}
+
+.h500 {
+    height: 500px;
+}
+
+
 .h600 {
     height: 600px;
+}
+
+
+.h800 {
+    height: 800px;
 }
