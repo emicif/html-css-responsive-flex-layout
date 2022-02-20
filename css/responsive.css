@@ -37,6 +37,9 @@
             width: calc(90% / 2);
         }
 
+        .google {
+            width: 40%;
+        }
 
 }
 
@@ -45,4 +48,45 @@
 
 @media screen and (min-width: 1920px) {
 
+
+
+    .container {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 10px;
+    }
+
+    .flex-row {
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+
+    .about-us {
+        align-items: center;
+    }
+
+    
+    .calc {
+        width: calc(90% / 3);
+    }
+
+    img {
+        width: 30%;
+        align-self: space-around;
+    }
+
+    .no-flex {
+        width: 30%;
+    }
+
+    .w30 {
+        width: 30%;
+    }
+
+    .w90 {
+        width: 90%;
+    }
 }
